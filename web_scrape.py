@@ -35,5 +35,5 @@ for x in range(1,400):
         break
 
 df = pd.DataFrame(reviewlist)
-df.to_excel('lentils.xlsx', index=False)
-print('Fin.')
+df.to_excel('file_name.xlsx', index=False)
+print('check you're folder u got you're data')
