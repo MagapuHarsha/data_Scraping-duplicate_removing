@@ -25,7 +25,7 @@ def get_reviews(soup):
         pass
 
 for x in range(1,400):
-    soup = get_soup(f'https://www.amazon.com/Tasty-Bite-Indian-Lentils-Microwaveable/product-reviews/B0007R9L4M/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews={x}')
+    soup = get_soup(f'you're url to get reviews={x}')
     print(f'Getting page: {x}')
     get_reviews(soup)
     print(len(reviewlist))
